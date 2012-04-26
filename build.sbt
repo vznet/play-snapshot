@@ -41,7 +41,7 @@ pomIncludeRepository := { _ => false }
 publishArtifact in Test := false
 
 pomExtra := (
-  <url>http://github.com/vznet/play-statsd</url>
+  <url>http://github.com/vznet/play-snapshot</url>
   <inceptionYear>2012</inceptionYear>
   <licenses>
     <license>
@@ -52,8 +52,8 @@ pomExtra := (
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:vznet/play-statsd.git</url>
-    <connection>scm:git:git@github.com:vznet/play-statsd.git</connection>
+    <url>git@github.com:vznet/play-snapshot.git</url>
+    <connection>scm:git:git@github.com:vznet/play-snapshot.git</connection>
   </scm>
   <developers>
     <developer>
