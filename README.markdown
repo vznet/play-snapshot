@@ -11,9 +11,9 @@ during the snapshot process.
 Installation
 ------------
 
-Add a dependency on ``"net.vz.play.snapshot" %% "play-snapshot" % "1.0.0-rc.1"``.  For example, in ``Build.scala``:
+Add a dependency on ``"net.vz.play.snapshot" %% "play-snapshot" % "1.0.0-rc.2"``.  For example, in ``Build.scala``:
 
-    val appDendencies = Seq(@"net.vz.play.snapshot" %% "play-snapshot" % "1.0.0-rc.1")
+    val appDendencies = Seq(@"net.vz.play.snapshot" %% "play-snapshot" % "1.0.0-rc.2")
 
 Usage in Java
 -------------
