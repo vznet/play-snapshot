@@ -62,7 +62,7 @@ class SnapshotAction extends Action[Snapshot] {
         values.foreach { value => sb.append(encode(key)).append("=").append(encode(value)).append("&") }
       }
     }
-    sb.append("#").append(decode(escapedFragment))
+    sb.append("#!").append(decode(escapedFragment))
     sb.toString()
   }
 }
